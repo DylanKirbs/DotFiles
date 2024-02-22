@@ -1,9 +1,0 @@
-[user]
-	email = dylk@duck.com
-	name = Dylan Kirby
-[advice]
-	detachedHead = true
-[color]
-	ui = auto
-[core]
-	excludesFile = ~/.gitignore
