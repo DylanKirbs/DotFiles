@@ -1,0 +1,21 @@
+# Global Git Ignore Configuration
+
+# Vim
+*.swp
+
+# File systems
+.nfs*
+
+# Env files
+.env
+
+# Configuration
+.clang-format
+.clang_config
+
+# Visual Studio Code
+.vscode/
+
+# Obsidian
+.obsidian/
+
