@@ -13,8 +13,6 @@
 "                 ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝                   "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let autoupdate = 1
-
 " AUTOMATIC SETUP --------------------------------------------- {{{
 
 " Molokai Colorscheme
@@ -26,11 +24,6 @@ endif
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent execute '!curl -fLo ~/.vim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
-" Auto Update RC
-if ($autoupdate == 1)
-    autocmd! VimEnter * silent execute '!curl -fLo ~/.vimrc https://raw.githubusercontent.com/DylanKirbs/vimrc/master/.vimrc'
 endif
 
 " }}}
@@ -129,6 +122,9 @@ Plug 'vim-scripts/AutoComplPop'
 
 " Clang Complete
 Plug 'xavierd/clang_complete'
+
+" Codium
+Plug 'Exafunction/codeium'
 
 call plug#end()
 
