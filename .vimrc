@@ -264,11 +264,11 @@ function! AirlineInitConfig()
     let g:airline_symbols.whitespace = 'Ξ'
 
     " Sections
-    let g:airline_section_a = airline#section#create(['mode','branch'])
+    let g:airline_section_a = airline#section#create_left(['mode','branch'])
     let g:airline_section_b = airline#section#create_left(['ffenc','%f'])
     let g:airline_section_c = airline#section#create(['filetype'])
     let g:airline_section_x = airline#section#create(['%P'])
-    let g:airline_section_y = airline#section#create(['Hex: %B'])
+    let g:airline_section_y = airline#section#create_right(['Hex: %B','Codeium: %{codeium#GetStatusString()}'])
     let g:airline_section_z = airline#section#create_right(['l: %l','c: %c','%p%%'])
 
   let g:airline_filetype_overrides = {
