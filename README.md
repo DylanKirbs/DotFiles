@@ -36,6 +36,7 @@ The script will automatically install the following plugins:
 - [vim-fugitive](http://www.github.com/tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal.
 - [ale](http://www.github.com/dense-analysis/ale) - Asynchronous Lint Engine.
 - [nerdtree](http://www.github.com/preservim/nerdtree) - A tree explorer plugin for Vim.
+- [codeium](http://www.github.com/Exafunction/codeium.vim) - A free AI completion assistant (Activate with `:Codeuim Auth`).
 
 As well as the following colorschemes:
 

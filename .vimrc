@@ -124,7 +124,7 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'xavierd/clang_complete'
 
 " Codium
-Plug 'Exafunction/codeium'
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' } 
 
 call plug#end()
 
