@@ -136,7 +136,7 @@ let g:clang_library_path='/usr/lib/llvm-14/lib/libclang-14.so.1'
 
 " MAPPINGS ---------------------------------------------------- {{{
 
-" Typing ::: or :w quickly will change to command mode
+" Typing ::: quickly will change to command mode, :w quickly will save 
 inoremap ::: <esc>:
 inoremap :w <esc>:w<CR>i
 

@@ -22,6 +22,9 @@ And you're off to the races!
 
 ## VimRC
 
+Use `zo` to open the folds, and `zc` to close them within the vimrc.
+To install the plugins execute ``.
+
 ## Features
 
 The script will automatically install the following plugins:
