@@ -2,64 +2,16 @@
 
 ## Installation of Dotfiles
 
-**Installing Stow**
+### Installing Stow
 
 ```bash
 sudo apt install stow
 ```
 
-**Stowing the files**
+### Stowing the files
 
 ```bash
 stow .
 ```
 
 And you're off to the races!
-
-## Tmux Config
-
-...
-
-## VimRC
-
-Use `zo` to open the folds, and `zc` to close them within the vimrc.
-To install the plugins execute ``.
-
-Get the most recent version of vim by following [this link](https://itsfoss.com/install-latest-vim-ubuntu/).
-
-## Features
-
-The script will automatically install the following plugins:
-
-- [vim-plug](http://www.github.com/junegunn/vim-plug) - A minimalist Vim plugin manager.
-- [powerline](http://www.github.com/powerline/powerline) - A statusline plugin for Vim.
-- [vim-airline](http://www.github.com/vim-airline/vim-airline) - A lightweight status/tabline for Vim.
-- [vim-airline-themes](http://www.github.com/vim-airline/vim-airline-themes) - A collection of themes for vim-airline.
-- [vim-fugitive](http://www.github.com/tpope/vim-fugitive) - A Git wrapper so awesome, it should be illegal.
-- [ale](http://www.github.com/dense-analysis/ale) - Asynchronous Lint Engine.
-- [nerdtree](http://www.github.com/preservim/nerdtree) - A tree explorer plugin for Vim.
-- [codeium](http://www.github.com/Exafunction/codeium.vim) - A free AI completion assistant (Activate with `:Codeuim Auth`, Note: Ensure you have a high enough version of vim).
-
-As well as the following colorschemes:
-
-- [Molokai](http://www.github.com/tomasr/molokai) - A port of the monokai theme for TextMate.
-
-## Customization
-
-Feel free to explore the VIMRC file you've downloaded. It's a plain text file, so you can modify it using any text editor. Within the VIMRC, you'll find comments that explain various sections. If you're comfortable with Vimscript, you can tailor the settings to match your preferences.
-
-I highly recommend reading the [Vim documentation](http://vimdoc.sourceforge.net/htmldoc/usr_toc.html) to learn more about Vimscript and how to customize your VIMRC.
-
-### Language Specific Settings
-
-I recommend that you do your language specific settings in the `after/ftplugin` directory, this way you can keep your VIMRC clean and organized.
-
-This can be done by creating a file in the `after/ftplugin` directory with the name of the filetype, for example `after/ftplugin/<filetype>.vim` for `<filetype>` specific settings.
-
-For example:
-```vim
-" after/ftplugin/python.vim
-setlocal textwidth=80   " Set the textwidth to 80 characters
-setlocal noexpandtab    " Use tabs instead of spaces
-setlocal autoindent     " Automatically indent new lines
-```
